@@ -1,0 +1,5 @@
+{
+    "git.ignoreLimitWarning": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.bracketPairColorization.enabled": false
+}
