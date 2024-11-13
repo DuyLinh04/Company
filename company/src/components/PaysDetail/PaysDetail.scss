@@ -1,0 +1,635 @@
+body,html{
+    padding: 0;
+    margin: 0;
+}
+
+#Container-PayDetail{
+    display: flex;
+    width: 1,920px;
+    height: 762px;
+    padding: 100px 360px;
+    gap: 50px;
+    opacity: 0px;
+    background-color: white;
+    .CheckPays{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1200px;
+        height: 562px;
+        gap: 20px;
+        opacity: 0px;
+
+        .Box-Info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 594px;
+            height: 524px;
+            gap: 16px;
+            opacity: 0px;
+
+            .donhang{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 534px;
+                height: 296px;
+                gap: 16px;
+                border-radius: 16px;
+                
+                .date-sell{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 534px;
+                    height: 46px;
+                    padding: 12px 0px 12px 0px;
+                    gap: 8px;
+                    opacity: 0px;
+
+                    span{
+                        width: 70px;
+                        height: 22px;
+                        padding: 4px 0px 4px 0px;
+                        gap: 8px;
+                        opacity: 0px;
+                        font-family: Myriad Pro;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 22.4px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #00649D;
+                        margin: 0;
+                    }
+                    h4{
+                        width: 456px;
+                        height: 22px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: Myriad Pro;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 22.4px;
+                        text-align: right;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #252525;
+                        margin: 0;
+                    }
+
+                }
+                .name-box{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    width: 534px;
+                    height: 166px;
+                    gap: 4px;
+                    opacity: 0px;
+
+                    .tengoi{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 534px;
+                        height: 30px;
+                        padding: 4px 0px 4px 0px;
+                        gap: 8px;
+                        opacity: 0px;
+
+                        span{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+
+                        h4{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: right;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+
+                    }
+
+
+
+                    .hinhthuc{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 534px;
+                        height: 30px;
+                        padding: 4px 0px 4px 0px;
+                        gap: 8px;
+                        opacity: 0px;
+
+                        span{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+
+                        h4{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: right;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+                    }
+
+                    .dongia{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 534px;
+                        height: 30px;
+                        padding: 4px 0px 4px 0px;
+                        gap: 8px;
+                        opacity: 0px;
+
+                        span{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+
+                        h4{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: right;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+                    }
+
+                    .voucher{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 534px;
+                        height: 30px;
+                        padding: 4px 0px 4px 0px;
+                        gap: 8px;
+                        opacity: 0px;
+
+                        span{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+
+                        h4{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: right;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+                    }
+                    
+                    
+                    .paied{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 534px;
+                        height: 30px;
+                        padding: 4px 0px 4px 0px;
+                        gap: 8px;
+                        opacity: 0px;
+
+                        span{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+
+                        h4{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: right;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;
+                            margin: 0;
+                        }
+                    }
+                }
+
+            }
+
+            .money-pays{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 534px;
+                height: 52px;
+                gap: 4px;
+                opacity: 0px;
+
+                .need-money{
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 534px;
+                    height: 26px;
+                    padding: 4px 0px 0px 0px;
+                    gap: 8px;
+                    opacity: 0px;
+
+                    span{
+                        width: 263px;
+                        height: 22px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: Myriad Pro;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 22.4px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #252525;
+                        margin: 0;
+                    }
+
+                    h4{
+                        width: 263px;
+                        height: 22px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: Myriad Pro;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 22.4px;
+                        text-align: right;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #252525;
+                        margin: 0;
+                    }
+                }
+                
+                h4{
+                    width: 534px;
+                    height: 22px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: Myriad Pro;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 22.4px;
+                    text-align: right;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    color: #E02424;
+                    margin: 0;                      
+                }
+            }
+
+
+            .Info-give{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 534px;
+                height: 136px;
+                gap: 16px;
+                opacity: 0px;
+
+
+                .sp{
+                    width: 534px;
+                    height: 22px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: Myriad Pro;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 22.4px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    margin: 0;
+                    color: #00649D;
+                }
+
+                .Info-detail{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 534px;
+                    height: 98px;
+                    gap: 4px;
+                    opacity: 0px;
+                    
+                    
+                    .emails{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 534px;
+                        height: 30px;
+                        padding: 4px 0px 4px 0px;
+                        gap: 8px;
+                        opacity: 0px;
+
+                        span{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #21272A;   
+                            margin: 0;                         
+                        }
+
+                        h4{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 22.4px;
+                            text-align: right;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;    
+                            margin: 0;
+                        }
+
+                    }
+
+                    .sdt{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 534px;
+                        height: 30px;
+                        padding: 4px 0px 4px 0px;
+                        gap: 8px;
+                        opacity: 0px;
+
+                        span{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #21272A;   
+                            margin: 0;                         
+                        }
+
+                        h4{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 22.4px;
+                            text-align: right;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;    
+                            margin: 0;
+                        }
+                    }
+
+                    .address{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        width: 534px;
+                        height: 30px;
+                        padding: 4px 0px 4px 0px;
+                        gap: 8px;
+                        opacity: 0px;
+
+                        span{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 400;
+                            line-height: 22.4px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #21272A;   
+                            margin: 0;                         
+                        }
+
+                        h4{
+                            width: 263px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Myriad Pro;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 22.4px;
+                            text-align: right;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #252525;    
+                            margin: 0;
+                        }
+                    }
+                }
+            }   
+        }
+
+        .Box-Pays{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 564px;
+            height: 562px;
+            padding: 30px;
+            gap: 16px;
+            border-radius: 16px;
+            opacity: 0px;
+
+
+            .Box-QR{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                width: 504px;
+                height: 406px;
+                gap: 20px;
+                border-radius: 16px ;
+                opacity: 0px;
+
+
+                .QR{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    width: 504px;
+                    height: 22px;
+                    gap: 8px;
+                    opacity: 0px;
+
+                    h3{
+                        width: 231px;
+                        height: 22px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: Myriad Pro;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 22.4px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #00649D;
+                        margin: 0;
+                    }
+
+                }
+
+                img{
+                    width: 160px;
+                    height: 160px;
+                    gap: 0px;
+                    opacity: 0px;
+
+                }
+
+                .Box-detail{
+                    display: flex;
+                    flex-direction: column;
+                    width: 504px;
+                    height: 184px;
+                    gap: 4px;
+                    opacity: 0px;
+
+
+                    
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,153 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#courseras {
+    .Container {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        background-image: url("../img/div.css-1k78pg9.png");
+        background-size: cover;
+        padding: 50px 20px;
+    }
+
+    .Container h1 {
+        font-size: 36px;
+        color: #ffffff;
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        max-width: 1200px;
+    }
+
+    .box-buy1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: 1px solid #d0e2f8;
+        border-radius: 20px;
+        width: 300px;
+        height: auto;
+        overflow: hidden;
+        background-color: #ffffff;
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        padding: 20px;
+        
+        &:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.2);
+        }
+    }
+
+    .logoVTC img {
+        width: 120px;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+        max-height: 160px;
+        border-radius: 10px;
+    }
+
+    .infor {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .infor h3 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 18px;
+        color: #333;
+        font-weight: bold;
+    }
+
+    .infor h5 {
+        text-align: center;
+        margin-bottom: 15px;
+        font-size: 14px;
+        color: #666;
+    }
+
+    .infor h6 {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        font-size: 14px;
+        text-align: center;
+        color: #ff3b30;
+        font-weight: bold;
+    }
+
+    .infor h2 {
+        font-size: 20px;
+        color: #1c87c9;
+        text-align: center;
+        margin-bottom: 5px;
+        font-weight: bold;
+
+        del {
+            font-size: 16px;
+            color: #84b0f5;
+            margin-left: 10px;
+        }
+    }
+
+    .infor h4 {
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: center;
+        color: #1c87c9;
+    }
+
+    .btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+        width: 100%;
+        
+        button {
+            height: 45px;
+            width: 100%;
+            max-width: 250px;
+            border: none;
+            border-radius: 25px;
+            font-size: 16px;
+            font-weight: bold;
+            background-color: #6a0dad;
+            color: white;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #7f5fc4;
+            }
+        }
+    }
+}

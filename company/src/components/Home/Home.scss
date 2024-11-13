@@ -3,10 +3,14 @@ body,html{
     margin: 0;
 }
 
+
+
+#Homes{
+    
 .Home-container{
     display: flex;
     flex-direction: column;
-    background-color: rgb(52, 48, 104);
+    background-color: rgb(150, 143, 249);
     justify-content: center;
     align-items: center;
     height: 100vh;
@@ -23,17 +27,25 @@ body,html{
     flex-direction: column;
     text-align: center;
     margin-top: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Inter;
     
 }
 
 .intro h1{
-    font-size: 20px;
+    font-family: Inter;
+    font-size: 40px;
+    color: rgb(247, 247, 247);
+}
+
+.intro h2{
+    font-family: Inter;
+    font-size: 30px;
     color: rgb(247, 247, 247);
 }
 
 .intro p{
-    font-size: 100px;
+    font-family: Inter;
+    font-size: 0px;
     color: rgb(255, 255, 255);
     font-weight: bold;
 }
@@ -50,7 +62,7 @@ body,html{
 .btn-buys{
     width: 300px;
     height: 50px;
-    background-color: rgb(129, 162, 225);
+    background-color: rgb(118, 120, 124);
     border-radius: 50px;
     text-align: center;
     font-weight: bold;
@@ -73,4 +85,5 @@ body,html{
 
 .btn-dowload:hover{
     background-color: rgb(121, 137, 22);
+}
 }

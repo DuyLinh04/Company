@@ -1,9 +1,10 @@
 import React from "react";
-import "./IntroAboutBook.css"
+import "./IntroAboutBook.scss"
 
 const IntroAboutBook = ()=>{
     return(
-        <div className="intro-about-book">
+        <div id="IntroAboutBooks" >
+            <div className="intro-about-book">
             <div className="Intro">
             <h2>Giới thiệu</h2>
             <p>Về sách Betia English 2</p>
@@ -56,6 +57,8 @@ const IntroAboutBook = ()=>{
 
                 </div>
             </div>
+            </div>
+            
 
             
 

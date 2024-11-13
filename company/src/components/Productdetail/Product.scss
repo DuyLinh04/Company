@@ -1,0 +1,144 @@
+body,html{
+   padding: 0;
+   margin: 0;
+
+}
+
+#Products{
+    display: flex;
+    width: Fixed 1,920px;
+    height: Hug 4,284.63px;
+    padding: 50px 180px;
+    gap: 50px;
+    
+    padding: 100px;
+    .Container-Product{
+        display: flex;
+        
+        gap: 50px;
+
+        .Imgage-Product{
+            width: 750px;
+            height:4,084.63px;
+            gap: 50px;   
+            .Booksmall{
+                width: 750px;
+                height: 750px;
+                
+            }
+    
+        }      
+    }
+
+    
+
+    .box-right{
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        height: 619.5px;
+        padding: 50px 0px 0px 0px;
+        gap: 50px;
+        border-radius: 50px;
+        
+
+        .pays{
+        display: flex;
+        flex-direction: column !important;;
+        gap: 50px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        width: 400px;
+        height: 619.5px;
+    }
+        .Hook{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 400px;
+            height: 110px;
+            
+            
+
+            h1{
+                height: 36px;
+                font-size: 30px;
+            }
+            p{
+                height: 64px;
+                text-align: center;
+            }
+
+        }    
+
+        .box-pays{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 400px;
+            height: 409.5px;
+            padding: 30px;
+            gap: 30px;
+            border-radius: 50px;
+            background-color:#f8cfcf;
+            
+            h1{
+                align-self: flex-start;
+                font-size: 16px;
+            }
+            hr {
+                border: none;
+                min-height: 1px; /* Đảm bảo có chiều cao tối thiểu */
+                
+                width: 100%;
+                margin: 0; /* Loại bỏ margin mặc định, nếu có */
+              }
+              
+              
+            .price{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+
+                .voucher{
+                    display: flex !important;;
+                    flex-direction: column;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+
+                span{
+                    color: red;
+                    font-weight: bold;
+                }
+                del{
+                    color: #A0A5A8;
+                }
+                h1{
+                    font-size: 30px;
+                    margin-right: 10px;
+                }
+
+                
+            }
+            button{
+                width: 340px;
+                height: 84px;
+                padding: 24px 0px 24px 0px;
+                gap: 10px;
+                border-radius: 50px;
+                border: 0px;
+                background-color: #36BDF8;
+                font-weight: bold;
+                
+            }
+            
+        }
+
+    }
+
+    
+}

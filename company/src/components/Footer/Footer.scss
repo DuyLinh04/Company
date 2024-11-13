@@ -1,0 +1,237 @@
+#footers {
+    display: flex;
+    justify-content: center; /* Đặt phần tử con ở giữa */
+    align-items: center; /* Canh giữa theo trục dọc */
+    background-color: #ffffff;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.1);
+    width: 1920px;
+    height: 378px;
+    gap: 0px;
+
+    .Container{
+        display: flex;
+        justify-content: center;
+        width: 1200px;
+        height: 258px;
+        gap: 0px;
+        justify-items: space-between;
+        
+
+    }
+}
+
+.contacts {
+    display: flex;
+    flex-direction: column;
+    width: 619px;
+    height: 258px;
+    gap: 20px;
+    
+
+    .Info{
+        display: flex;
+        flex-direction: column;
+        width: 120px;
+        height: 24px;
+        gap: 0px;
+        
+
+        h5{
+            font-family: Myriad Pro;
+            font-size: 16px;
+            font-weight: 700;
+            margin: 0;
+            text-align: left;
+        }
+
+    }
+
+    .address{
+        display: flex;
+        flex-direction: column;
+        width: 619px;
+        height: 76ppx;
+        gap: 2px;
+        opacity: 0px;
+
+
+        
+
+        .item1{
+            width: 121px;
+            height: 24px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Myriad Pro;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            margin: 0;
+
+        }
+        .item2{
+            width: 190px;
+            height: 24px;
+            gap: 0px;
+            opacity: 0px;
+            font-family: Myriad Pro;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 24px;
+            text-align: left;
+            margin: 0;
+        }
+        p ,.item3 {
+            
+                
+            
+                width: 619px;
+                height: 24px;
+                gap: 0px;
+                
+                font-family: Myriad Pro;
+                font-size: 12px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                margin: 0;
+            
+            
+        }
+
+    }
+
+    .admins{
+        
+        
+
+        p{  
+            width: 572px;
+            height: 48px;
+            gap: 0px;
+            font-family: Myriad Pro;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            margin: 0;
+        }
+    }
+    
+    .policies{
+        display: flex;
+        flex-direction: column;
+        width: 72px;
+        height: 50px;
+        gap: 2px;
+        
+
+        
+        
+        .item5 {
+                width: 68px;
+                min-height: 24px;
+                gap: 0px;
+                
+                font-family: Myriad Pro;
+                font-size: 14px;
+                font-weight: 700;
+                line-height: 24px;
+                text-align: left;
+                margin: 0;
+                text-decoration: none;  
+                color: inherit;
+            }
+           
+        
+
+        .item6{
+            width: 72px;
+            min-height: 24px;
+            gap: 0px;
+            
+            font-family: Myriad Pro;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 24px;
+            text-align: left;
+            margin: 0;
+            text-decoration: none;
+            color: inherit;
+        }
+    }
+
+}
+
+
+
+.logo-section {
+    display: flex;
+    width: 458.75px;
+    height:104px;
+    gap: 38px;
+    opacity: 0px;
+
+    img ,.item7{
+        width: 155.32px;
+        height: 60px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+    img ,.item8{
+        width: 243.43px;
+        height: 60px;
+        gap: 0px;
+        opacity: 0px;
+
+    }
+}
+
+.logo-item1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: Hug (155.32px)px;
+    height: Hug (104px)px;
+    gap: 20px;
+    opacity: 0px;
+    h5,.font1{
+        width: 85px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0.8px;
+        font-family: Myriad Pro;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        margin: 0;
+    }
+    
+
+}
+.logo-item2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: Hug (243.43px)px;
+    height: Hug (104px)px;
+    gap: 20px;
+    opacity: 0px;
+    h5,.font2{
+        width: 87px;
+        height: 24px;
+        gap: 0px;
+        opacity: 0.8px;
+        font-family: Myriad Pro;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: left;
+        margin: 0;
+    }
+}
