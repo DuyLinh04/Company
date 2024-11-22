@@ -1,0 +1,126 @@
+body,html{
+    margin: 0;
+    padding: 0;
+}
+
+#Container-Introduc{
+    display: flex;
+    flex-direction: column;
+    
+    height: 1634px;
+    padding: 100px 0px 100px 0px;
+    gap: 30px;
+    opacity: 0px;
+
+
+    .Intros{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1260px;
+        height: 80px;
+        padding: 0px 519.29px 0px 30px;
+        gap: 0px;
+        
+
+
+
+        .Item1{
+            width: 80px;
+            height: 80px;
+            left: 30px;
+            gap: 0px;
+            
+
+        }
+
+        h1{
+            position: relative;
+            width: 611px;
+            height: 72px;
+            top:4.05px;
+            left: 129.71px;
+            font-family: Myriad Pro;
+            font-size: 50px;
+            font-weight: 700;
+            line-height: 72px;
+            text-align: left;
+            color: #121D26;
+            margin: 0;
+        }
+    }
+
+
+    .Box-Intro{
+        display: flex;
+        flex-direction: column;
+        width: 1200px;
+        height: 1324px;
+        gap: 20px;
+       
+        .button-item{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 413px;
+            height: 32px;
+            gap: 10px;
+            
+            .button-item1{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 72px;
+                height: 32px;
+                border: 1px;
+                gap: 10px;
+                border-radius: 50px;
+                background-color: #36BDF8;
+
+               span{
+                width: 40px;
+                height: 16px;
+                gap: 0px;
+                opacity: 0px;
+                font-size: 14px;
+                font-weight:bold;
+                line-height: 16px;
+                text-align: left;
+                color: #FFFFFF;
+
+               }
+            }
+
+            .button-item2{
+                display: flex;
+                
+                    align-items: center;
+                    justify-content: center;
+                width: 92px;
+                height: 32px;
+                background-color: #F3F4F4;
+                gap: 10px;
+                border-radius: 64px;
+                opacity: 0px;
+                border: 1px;
+                margin: 0;
+                padding: 0;
+                span{
+                    
+                    width: 60px;
+                    height: 16px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: Myriad Pro;
+                    font-size: 14px;
+                    font-weight: bold;
+                    line-height: 16px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    padding: 8px 16px;
+                }
+            }
+        }   
+    }
+}

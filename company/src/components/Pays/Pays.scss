@@ -5,9 +5,9 @@ body,html{
 
 #pays{
     display: flex;
-    width: Fixed (1,920px)px;
-    height: Hug (778px)px;
-    padding: 100px 360px 100px 360px;
+    align-items: center;
+    justify-content: center;
+    height: Hug (778px);
     gap: 50px;
     
 
@@ -172,8 +172,8 @@ body,html{
         .huong-dan{
             display: flex;
             flex-direction: column;
-            width: Fill (537px)px;
-            height: Hug (80px)px;
+            width: 537px;
+            height: 80px;
             gap: 8px;
             opacity: 0px;
 
@@ -207,8 +207,8 @@ body,html{
         .formInput{
             display: flex;
             flex-direction: column;
-            width: Fill (537px)px;
-            height: Hug (418px)px;
+            width: 537px;
+            height: 418px;
             gap: 16px;
             opacity: 0px;
 

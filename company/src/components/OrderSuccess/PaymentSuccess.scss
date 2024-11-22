@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body,html{
+    margin: 0;
+    padding: 0;
+
+}
+
+#Container-success{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 938px;
+    padding: 100px 360px 100px 360px;
+    gap: 50px;
+    opacity: 0px;
+    h4{
+        margin: 0;
+    }
+    //box
+    .Box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        max-width: 1200px;
+        height:738px;
+        gap: 20px;
+        opacity: 0px;
+
+        // Item box
+
+        .Item-box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            width:564px;
+            height:738px;
+            gap: 16px;
+            opacity: 0px;
+
+            .Item-box h4{
+                width: 207px;
+                height: 28px;
+                left: 178.5px;
+                gap: 0px;
+                opacity: 0px;
+                font-family: Myriad Pro;
+                font-size: 20px;
+                font-weight: 700;
+                line-height: 28px;
+                text-align: center;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #17AB13;
+                margin: 0;
+            }
+            .Item-box img{
+                width: 303px;
+                height: 248px;
+                gap: 0px;
+                opacity: 0px;
+
+            }
+            
+            
+            .code-sign{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 564px;
+                height:152px;
+                gap: 16px;
+                opacity: 0px;
+
+                .codes{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 564px;
+                height: 70px;
+                gap: 4px;
+                opacity: 0px;
+
+                    .intro-code{
+                    width: 368px;
+                    height: 18px;
+                    gap: 0px;
+                    opacity: 0px;
+                    font-family: Myriad Pro;
+                    font-size: 18px;
+                    font-weight: 700;
+                    line-height: 25.2px;
+                    text-align: left;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    margin: 0;
+                    color: #105296;
+                    }
+
+                    .card-code{
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        width: 368px;
+                        height: 48px;
+                        padding: 12px 16px 12px 16px;
+                        gap: 8px;
+                        border-radius: 8px;
+                        border: 1px;
+                        opacity: 0px;
+                        background-color: #1A82B3;
+
+                        .divider{
+                            width: 1px;
+                            height: 28px;
+                            gap: 0px;
+                            opacity: 0px;
+                            background-color: #F6F6F6;
+                        }
+
+                        .Voucher{
+                            width: 253px;
+                            height: 22px;
+                            gap: 0px;
+                            opacity: 0px;
+                            //styleName: Button;
+                            font-family: Raleway;
+                            font-size: 16px;
+                            font-weight: 700;
+                            line-height: 22.4px;
+                            text-align: left;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            margin: 0;
+                            color: #FFFFFF;
+                        }
+
+                        .copy{
+                            width: 34px;
+                            height: 20px;
+                            gap: 0px;
+                            opacity: 0px;
+                            font-family: Raleway;
+                            font-size: 14px;
+                            font-style: italic;
+                            font-weight: 700;
+                            line-height: 19.6px;
+                            text-align: right;
+                            text-underline-position: from-font;
+                            text-decoration-skip-ink: none;
+                            color: #FFCF29;
+                            margin: 0;
+                            cursor: pointer;    
+                        }
+                    }
+                }
+
+                .Notification{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 564px;
+                    height: 66px;
+                    gap: 8px;
+                    opacity: 0px;
+
+                     span{
+                        width: 564px;
+                        height: 18px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: Myriad Pro;
+                        font-size: 18px;
+                        font-weight: 700;
+                        line-height: 25.2px;
+                        text-align: center;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        margin: 0;
+                        color:#105296;
+                    }
+                    p{
+                        width: 564px;
+                        height: 40px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: Myriad Pro;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 19.6px;
+                        text-align: center;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        color: #252525;
+                        margin: 0;
+                    }
+                }
+            }
+
+            .Information-order{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 564px;
+                height: 196px;
+                padding: 30px;
+                gap: 32px;
+                border-radius: 16px;
+                opacity: 0px;
+
+
+                .Order{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                    width: 504px;
+                    height: 136px;
+                    gap: 16px;
+                    opacity: 0px;
+
+                    h4{
+                        width: 504px;
+                        height: 22px;
+                        gap: 0px;
+                        opacity: 0px;
+                        font-family: Myriad Pro;
+                        font-size: 16px;
+                        font-weight: 700;
+                        line-height: 22.4px;
+                        text-align: left;
+                        text-underline-position: from-font;
+                        text-decoration-skip-ink: none;
+                        margin: 0;   
+                        color: #00649D;                                              
+                    }
+
+                    .Order-detail{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        width: 504px;
+                        height: 98px;
+                        gap: 4px;
+                        opacity: 0px;
+
+                        .emails{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width:504px;
+                            height: 30px;
+                            padding: 4px;
+                            gap: 8px;
+                            opacity: 0px;
+
+                            span{
+                                width: 248px;
+                                height: 22px;
+                                gap: 0px;
+                                opacity: 0px;
+                                font-family: Myriad Pro;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 22.4px;
+                                text-align: left;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                                color: #21272A;
+                                margin: 0;
+                            }
+
+                            h4{
+                                width: 248px;
+                                height: 22px;
+                                gap: 0px;
+                                opacity: 0px;
+                                font-family: Myriad Pro;
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 22.4px;
+                                text-align: right;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                                color: #252525;
+                                margin: 0;
+                            }
+                        }
+
+                        .sdt{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width:504px;
+                            height: 30px;
+                            padding: 4px;
+                            gap: 8px;
+                            opacity: 0px;
+
+                            span{
+                                width: 248px;
+                                height: 22px;
+                                gap: 0px;
+                                opacity: 0px;
+                                font-family: Myriad Pro;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 22.4px;
+                                text-align: left;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                                color: #21272A;
+                                margin: 0;
+                            }
+
+                            h4{
+                                width: 248px;
+                                height: 22px;
+                                gap: 0px;
+                                opacity: 0px;
+                                font-family: Myriad Pro;
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 22.4px;
+                                text-align: right;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                                color: #252525;
+                                margin: 0;
+                            }
+                        }
+
+                        .address{
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            width:504px;
+                            height: 30px;
+                            padding: 4px;
+                            gap: 8px;
+                            opacity: 0px;
+
+                            span{
+                                width: 248px;
+                                height: 22px;
+                                gap: 0px;
+                                opacity: 0px;
+                                font-family: Myriad Pro;
+                                font-size: 16px;
+                                font-weight: 400;
+                                line-height: 22.4px;
+                                text-align: left;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                                color: #21272A;
+                                margin: 0;
+                            }
+
+                            h4{
+                                width: 248px;
+                                height: 22px;
+                                gap: 0px;
+                                opacity: 0px;
+                                font-family: Myriad Pro;
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 22.4px;
+                                text-align: right;
+                                text-underline-position: from-font;
+                                text-decoration-skip-ink: none;
+                                color: #252525;
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
+
+            Button{
+                width: 564px;
+                height: 50px;
+                padding: 11px 20px 11px 20px;
+                gap: 10px;
+                border-radius: 50px;
+                opacity: 0px;
+                background-color: #36BDF8;
+                border: 1px;
+                font-family: Myriad Pro;
+                font-size: 16px;
+                font-weight: 700;
+                line-height: 28px;
+                text-align: left;
+                text-underline-position: from-font;
+                text-decoration-skip-ink: none;
+                color: #FFFFFF;
+                text-align: center;
+            }
+        }
+
+
+    }
+}

@@ -5,9 +5,10 @@ body,html{
 
 #Container-PayDetail{
     display: flex;
-    width: 1,920px;
+    justify-content: center;
+    align-items: center;
     height: 762px;
-    padding: 100px 360px;
+    
     gap: 50px;
     opacity: 0px;
     background-color: white;
@@ -29,7 +30,7 @@ body,html{
             height: 524px;
             gap: 16px;
             opacity: 0px;
-
+            
             .donhang{
                 display: flex;
                 flex-direction: column;
@@ -563,11 +564,11 @@ body,html{
             align-items: center;
             width: 564px;
             height: 562px;
-            padding: 30px;
+            
             gap: 16px;
             border-radius: 16px;
             opacity: 0px;
-
+            background-color: #F8F8F8;
 
             .Box-QR{
                 display: flex;
@@ -624,8 +625,45 @@ body,html{
                     height: 184px;
                     gap: 4px;
                     opacity: 0px;
+                    h5{
+                        font-size: 16px;
+                        color: red;
+                        margin: 0;
+                    }
+                    
+                }
+            }
 
+            .button-submit{
+                display: flex;
+                flex-direction: column;
+                width: 504px;
+                height: 80px;
+                gap: 8px;
+                opacity: 0px;
+                span{
+                    text-align: right;
+                }
 
+                button{
+                    width: 504px;
+                    height: 50px;
+                    padding: 11px 20px 11px 20px;
+                    gap: 10px;
+                    border-radius: 50px;
+                    opacity: 0px;
+                    font-family: Myriad Pro;
+                    font-size: 16px;
+                    font-weight: 700;
+                    line-height: 28px;
+                    color: #FFFFFF;
+                    text-underline-position: from-font;
+                    text-decoration-skip-ink: none;
+                    border: 1px;
+                }
+
+                button:hover{
+                    background-color: #00649D;
                     
                 }
             }

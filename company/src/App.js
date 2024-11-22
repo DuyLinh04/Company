@@ -14,6 +14,8 @@ import PCStore from "./components/PC_Store/PCStore";
 import Product from "./components/Productdetail/Product";
 import Pays from "./components/Pays/Pays";
 import PaysDetail from "./components/PaysDetail/PaysDetail";
+import OrderSuccess from "./components/OrderSuccess/OrderSuccess";
+import Introduction from "./components/Introduction/Introduction";
 function App() {
   return (
     <BrowserRouter>
@@ -30,9 +32,8 @@ function App() {
               <Nhapvai />
               <Book />
               <Coursera />
-              {/* <PaysDetail/> */}
               
-            </>
+            </> 
           }
         />
 
@@ -45,6 +46,9 @@ function App() {
         <Route path="/coursera" element={<Coursera />} />
         <Route path="/pays" element={<Pays />} />
         <Route path="/news" element={<News />} />
+        <Route path="/paydetail" element={<PaysDetail/>} />
+        <Route path="/paySuccess" element={<OrderSuccess />} />
+        <Route path="/huong-dan/1" element={<Introduction/>} />
       </Routes>
       <Footer />
     </BrowserRouter>

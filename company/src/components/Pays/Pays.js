@@ -2,8 +2,13 @@ import React from "react";
 import "./Pays.scss";
 import LogoVTC from "../img/Logo VTC Online -01 1.png";
 import Cards from "../img/image 30.png";
+import { useNavigate } from 'react-router-dom';
 const Pays = () => {
+    const navigate = useNavigate();
 
+    const handleBuyClick = () => {
+        navigate('/paydetail'); // Chuyển hướng đến trang pays.js
+    };
         return(
             <div id="pays">
                 <div className="Containers">
@@ -53,7 +58,7 @@ const Pays = () => {
                                     <label  className="formlabel">Địa chỉ gửi sách</label>
                                     <input type="text"  name="address" placeholder="Nhập địa chỉ nhận sách tại đây..."className="input-address"/>                                    
                                 </div>
-                                <button type="submit">MUA COUPON</button>
+                                <button type="submit" onClick={handleBuyClick} >MUA COUPON</button>
                             </div>
                             
                         </form>

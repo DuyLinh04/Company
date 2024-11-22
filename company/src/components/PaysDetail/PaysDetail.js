@@ -2,7 +2,13 @@ import React from "react";
 import './PaysDetail.scss';
 import QR from '../img/download1.png';
 import { Button } from 'react-bootstrap';
+import { useNavigate } from 'react-router-dom';
 const PaysDetail = () => {
+    const navigate = useNavigate();
+
+    const handleBuyClick = () => {
+        navigate('/paySuccess'); // Chuyển hướng đến trang pays.js
+    };
     return(
         <div id="Container-PayDetail">
             <div className="CheckPays">
@@ -90,7 +96,7 @@ const PaysDetail = () => {
                     
         
                         <div className="Box-detail">
-                            <ul>*Kiểm tra lại thông tin sau quét mã QR</ul>
+                            <h5>*Kiểm tra lại thông tin sau quét mã QR</h5>
                             <li>Số tiền: <span>1,080,000 vnđ</span></li>
                             <li>Nội dung: <span>NAP NC5AD4 1307309316 1421914</span></li>
                             <li>CTK: <span>CTY CP VTC TRUYEN THONG TRUC TUYEN</span></li>
@@ -100,7 +106,7 @@ const PaysDetail = () => {
                     </div>
                     <div className="button-submit">
                         <span>Bạn chưa nhận được Coupon?</span>
-                        <button>KIỂM TRA THANH TOÁN</button>
+                        <Button onClick={handleBuyClick}>KIỂM TRA THANH TOÁN</Button>
                     </div>
                 </div>
             </div>
